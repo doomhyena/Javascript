@@ -84,13 +84,3 @@ function howmanytrue(block) {
             szam1++;
         }
 }
-
-/*
-
-= --> deklaráció
-== --> tartalom egyezésvizsgálata
-=== --> tartalom és típus is egyezzen
-
-*/
-
-
