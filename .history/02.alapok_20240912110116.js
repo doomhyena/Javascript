@@ -68,9 +68,4 @@ var d = c.charAt(1);
 
 function combo(num) {
     var stringnumber = num.toString();
-    if (stringnumber.charAt(0) > stringnumber.charAt(1)) {
-        return true;
-    } else {
-        return false;
-    }
 }

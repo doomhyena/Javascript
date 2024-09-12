@@ -64,13 +64,8 @@ var c = "valami";
 //A c második betűje legyen d tartalma
 var d = c.charAt(1);
 
-// Feladat: Megvizsgálunk 1 db kétjegyű számot és megvizsgáljuk, hogy a 2 lehetséges elrendezés közül a nagyobbik van-e.
+/* 
 
-function combo(num) {
-    var stringnumber = num.toString();
-    if (stringnumber.charAt(0) > stringnumber.charAt(1)) {
-        return true;
-    } else {
-        return false;
-    }
-}
+Feladat: Megvizsgálunk 1 db kétjegyű számot és megvizsgáljuk, hogy a 2 lehetséges elrendezés közül a nagyobbik van-e.
+
+*/
