@@ -15,7 +15,7 @@ function sum(num){
 
 }
 
-// console.log(sum(4))
+console.log(sum(4))
 
 function szamol(x, y){
     return x*2**y
@@ -23,7 +23,7 @@ function szamol(x, y){
 
 
 // Hatványozás: alap ** kietvő
-//console.log(szamol(10,3))
+console.log(szamol(10,3))
 
 /* 
 
@@ -142,9 +142,5 @@ Pl.: (80,3) -> 80 / 2^3 = 10
 */
 
 function matekos(x,y) {
-    var oszto = Math.pow(2,y)
-    var eredmeny = Math.floor(x, oszto)
-    return eredmeny;
+    var oszto = y;
 }
-
-console.log(matekos(80,3))
