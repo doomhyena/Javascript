@@ -105,22 +105,9 @@ Pl.: társas(5,3) -> false, mert nem léphetek hátrafelé
 */
 
 function tarsas(en, tars){
-    if (en < tars &&  (tars - en) <= 8) {
+    if (... && ...) {
         return true;
      } else {
         return false;
      }
-}
-
-/*
-
-"&&" ÉS feltétel. Egyszerre kell mindkettőnek teljesülnie
-"||" VAGY feltétel. Elég ha az egyik feltétel teljesül
-
-*/
-
-function tarsastwo(en, tars) {
-    var kulonbseg = tars - en;
-    return kulonbseg > 0 && kulonbseg < 7;
-    // return-be is lehet logikai vizsgálat. Az eredményét fogja kiadni
 }

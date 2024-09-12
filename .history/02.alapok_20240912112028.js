@@ -118,9 +118,3 @@ function tarsas(en, tars){
 "||" VAGY feltétel. Elég ha az egyik feltétel teljesül
 
 */
-
-function tarsastwo(en, tars) {
-    var kulonbseg = tars - en;
-    return kulonbseg > 0 && kulonbseg < 7;
-    // return-be is lehet logikai vizsgálat. Az eredményét fogja kiadni
-}
