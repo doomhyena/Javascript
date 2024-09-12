@@ -34,7 +34,7 @@ ol.: [1,2,3,4,5] --> [1,4]
 */
 
 function minimax(lista){
-    var min, max = lista[0]; //2 új változót 1 sorba értékük pedig a lista 1. eleme
+    const min, max = lista[0]; //2 új változót 1 sorba értékük pedig a lista 1. eleme
 
     for (var i = 0; i < lista.length; i++){
         if (lista[i] > max) {
@@ -44,5 +44,4 @@ function minimax(lista){
             min = lista[i];
         }
     }
-    return[min, max]
 }
