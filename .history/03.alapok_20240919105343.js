@@ -54,51 +54,11 @@ Index Műveltek:
 // Feladat: A számlístában hányszor fordul elő elő, hogy a következő elem az nagyobb az előzőnél? Pl. [10, 11, 12, 9 ,10] --> 3
 
 function hanynagyobb(szamok) {
-    let eredmeny = 0;  
-    for (var i = 1; i < szamok.length; i++) {
-        if (szamok[i] > szamok[i-1]) {
+    const eredmeny = 0;
+    for (var i = 1; i < szamok; i++) {
+        if (számok[i] > számok[...]) {
             eredmeny += 1;
         }
     }
     return eredmeny;
 }
-
-console.log(hanynagyobb([10, 11, 12, 9 ,10]));
-
-console.log("3.Feladat:")
-
-/*
-
-Szöveglistánál "" jelekkel mutatjuk, hogy string típusú változók:
-
-const szoveglista = ["szoveg1", "szoveg2", "szoveg3"]
-
-Hozzáfűtés a lista végére?
-listanév,push(újElem);
-
-Az igaz/hamis értékek kisbetűsek: true, false.
-
-=== -> Ez nem csak az értéket, hanem a típust is nézi.
-
-Igaz/Hamis tartlom megfordítása: !érték
-
-Pl.:
-
-const érték = true;
-
-érték = !érték;
-
-*/
-
-function valtoztato(szoveglista) {
-    let megoldas = [];
-    let allapot = true;
-    for (var i = 1; i < megoldas.length; i++) {
-        if (szamok[i] === "vált") {
-            allapot = !allapot;
-        }
-        megoldas.push(allapot);
-    }
-    return megoldas;
-}
-valtoztato(["Ágoston", "Kincső", "Igor", "Ádám", "Balázs"])

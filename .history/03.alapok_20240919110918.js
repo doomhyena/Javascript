@@ -89,16 +89,3 @@ const érték = true;
 érték = !érték;
 
 */
-
-function valtoztato(szoveglista) {
-    let megoldas = [];
-    let allapot = true;
-    for (var i = 1; i < megoldas.length; i++) {
-        if (szamok[i] === "vált") {
-            allapot = !allapot;
-        }
-        megoldas.push(allapot);
-    }
-    return megoldas;
-}
-valtoztato(["Ágoston", "Kincső", "Igor", "Ádám", "Balázs"])

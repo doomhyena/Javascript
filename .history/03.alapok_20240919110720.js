@@ -73,32 +73,4 @@ Szöveglistánál "" jelekkel mutatjuk, hogy string típusú változók:
 
 const szoveglista = ["szoveg1", "szoveg2", "szoveg3"]
 
-Hozzáfűtés a lista végére?
-listanév,push(újElem);
-
-Az igaz/hamis értékek kisbetűsek: true, false.
-
-=== -> Ez nem csak az értéket, hanem a típust is nézi.
-
-Igaz/Hamis tartlom megfordítása: !érték
-
-Pl.:
-
-const érték = true;
-
-érték = !érték;
-
 */
-
-function valtoztato(szoveglista) {
-    let megoldas = [];
-    let allapot = true;
-    for (var i = 1; i < megoldas.length; i++) {
-        if (szamok[i] === "vált") {
-            allapot = !allapot;
-        }
-        megoldas.push(allapot);
-    }
-    return megoldas;
-}
-valtoztato(["Ágoston", "Kincső", "Igor", "Ádám", "Balázs"])
