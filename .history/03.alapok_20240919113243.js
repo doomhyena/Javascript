@@ -102,4 +102,5 @@ function valtoztato(szoveglista) {
     return megoldas;
 }
 
-console.log(valtoztato(["Ágoston", "Kincső", "Igor", "Ádám", "Balázs"]))
+console.log()
+valtoztato(["Ágoston", "Kincső", "Igor", "Ádám", "Balázs"])
