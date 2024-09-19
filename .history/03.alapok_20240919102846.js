@@ -17,8 +17,4 @@ for (var i = kezdőérték; Meddigmenjen; irány) {
     kód
 }
 
-listához fűzés: listanév.push(Újelem)
-
-egysoros, rövidített if-else állítás
-
 */ 
