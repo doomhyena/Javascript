@@ -80,5 +80,4 @@ function felbe(hajtasok) {
         vastagsag *= 2
         szamol++;
     }
-    return `Végleges vastagság ${vastagsag} méter`
 }
