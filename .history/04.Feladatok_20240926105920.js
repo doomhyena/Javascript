@@ -77,7 +77,7 @@ function felbe(hajtasok) {
 
     let i = 0;
     while (szamol < hajtasok) {
-        vastagsag *= 2;
+        vastagsag *= 2
         szamol++;
     }
     return `Végleges vastagság ${vastagsag} méter`
@@ -89,8 +89,14 @@ function felbe(hajtasok) {
     let szamol = 0;
     let vastag = .0005;
 
-    for (let i = 0; szamol < hajtasok; szamol++) {
-        vastagsag *= 2;
+    let i = 0;
+    while (szamol < hajtasok) {
+        vastagsag *= 2
+        szamol++;
+    }
+
+    for (let i = 0; szamol < hajtasok; i++) {
+        console.log(`Ez a szám: i`);
     }
     return `Végleges vastagság ${vastagsag} méter`
 }
