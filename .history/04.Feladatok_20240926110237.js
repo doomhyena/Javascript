@@ -40,7 +40,7 @@ var lista3 = [7, 8, 9]
 
 const lista4 = lista1.concat(lista2, lista3)
 
-// console.log(lista4);
+console.log(lista4);
 
 /*
 
@@ -94,37 +94,3 @@ function felbe(hajtasok) {
     }
     return `Végleges vastagság ${vastagsag} méter`
 }
-
-// --------------------------------------------------------------------------
-
-/*
-
-A függvény vizsgálja meg, hogy az adott lista összes eleme egyezik-e típusra és tartalomra
-
-Pl.:
-
-azonso(["abc", "abc", "abc", "abc"]) --> true
-azonso(["&&", "&", "&&&", "&&&"]) --> false
-azonso([true, "true"]) --> false
-
-*/
-
-function azonos(ertekek) {
-    let viszonyitas = [];
-
-    for (let i = 1; i < ertekek.length; i++) {
-        if (ertekek[i] !== viszonyitas) {
-            return false;
-        }
-    }
-    return true;
-}
-
-console.log(azonos(["abc", "abc", "abc", "abc"]));
-console.log(azonos(["&&", "&", "&&&", "&&&"]))
-console.log(azonos([true, "true"]));
-
-
-// --------------------------------------------------------------------------
-
-
