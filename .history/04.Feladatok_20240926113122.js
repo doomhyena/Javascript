@@ -110,7 +110,7 @@ azonso([true, "true"]) --> false
 */
 
 function azonos(ertekek) {
-    let viszonyitas = ertekek[0];
+    let viszonyitas = ertekek[i];
 
     for (let i = 1; i < ertekek.length; i++) {
         if (ertekek[i] !== viszonyitas) {
