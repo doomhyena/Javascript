@@ -29,16 +29,4 @@ var lista1 = [1, 2, 3]
 var lista2 = [4, 5, 6]
 var lista3 = [7, 8, 9]
 
-Ezeket egyesítjük egy új változóba
-
-újlista = elsölistaneve.concat(többilistanevei)
 */
-
-var lista1 = [1, 2, 3]
-var lista2 = [4, 5, 6]
-var lista3 = [7, 8, 9]
-
-const lista4 = lista1.concat(lista2, lista3)
-
-console.log(lista4);
-
