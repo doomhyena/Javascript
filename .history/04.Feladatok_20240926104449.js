@@ -54,7 +54,6 @@ Változók: a JS-ben nem típus hanem hozzáférhetőség szerint van 3:
 function egyberak(főlista) {
     megoldás = [];
     for (let i = 0; i < lista.length; i++) {
-        megoldás = megoldás.concat(főlista[i])
+        console.log(`Ez a szám: i`);
     }
-    return megoldás
 }
