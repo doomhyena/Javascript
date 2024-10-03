@@ -87,8 +87,7 @@ function dobozos(...dobozok){
         for (let j = 0; j < doboz; j++) {
             alterfogat = alterfogat * doboz[j];
         }
-        terfogat += alterfogat;
+        alterfogat += terfogat;
     }
     return terfogat
 }
-

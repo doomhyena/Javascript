@@ -76,19 +76,17 @@ Pl.: dobozos([4, 2, 4], [3, 3, 3,], [1, 1, 2], [2, 1, 1]) -> 63
      dobozos([1, 1, 1]) 
 */
 
-function dobozos(...dobozok){
+function dobozos(dobozok){
     let terfogat = 0;
 
     for (let i = 0; i < dobozok.length; i++) {
 
-        let doboz = dobozok[i];
+        let doboz = 0;
         let alterfogat = 1;
 
         for (let j = 0; j < doboz; j++) {
-            alterfogat = alterfogat * doboz[j];
+            alterfogat = ...;
         }
-        terfogat += alterfogat;
     }
     return terfogat
 }
-

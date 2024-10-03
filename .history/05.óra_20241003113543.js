@@ -92,3 +92,13 @@ function dobozos(...dobozok){
     return terfogat
 }
 
+function dobozos2(...dobozok) {
+    let osszterfogat = 0;
+
+    doboz.forEach(doboz => {
+        dobozok.forEach(doboz => {
+            osszterfogat = osszterfogat + (doboz[0]*doboz[1]*doboz[2])
+        }
+        )
+    })
+}
