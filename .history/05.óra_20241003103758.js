@@ -39,7 +39,5 @@ function rendezmod2(tomb, mod){
             return tomb.sort((a, b) => a-b); 
         case 'Desc':
             return tomb.sort((a, b) => b-a)
-        default:
-            return tomb;    
     }
 }
