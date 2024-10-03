@@ -52,23 +52,6 @@ Nagybetűvé alakítás: szovegvaltozo.toUpperrCase();
 */
 
 function szorendez(tomb) {
-    let betutomb = szo.split("");
-
     let kisbetus = [];
     let nagybetus = [];
-
-    for (let i = 0; i < betutomb.length; i++) {
-        if(betutomb[i] == betutomb[i].toUpperCase()) {
-            nagybetus.push(betutomb[i]);
-        } else {
-            kisbetus.push(betutomb[i]);
-        }
-    }
-    return nagybetus.concat(kisbetus).join("");
 }
-
-/* 
-
-
-
-*/

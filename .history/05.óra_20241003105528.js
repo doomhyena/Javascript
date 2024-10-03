@@ -66,9 +66,3 @@ function szorendez(tomb) {
     }
     return nagybetus.concat(kisbetus).join("");
 }
-
-/* 
-
-
-
-*/

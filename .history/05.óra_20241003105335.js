@@ -60,15 +60,6 @@ function szorendez(tomb) {
     for (let i = 0; i < betutomb.length; i++) {
         if(betutomb[i] == betutomb[i].toUpperCase()) {
             nagybetus.push(betutomb[i]);
-        } else {
-            kisbetus.push(betutomb[i]);
         }
     }
-    return nagybetus.concat(kisbetus).join("");
 }
-
-/* 
-
-
-
-*/
