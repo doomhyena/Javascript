@@ -30,5 +30,4 @@ function rendezmod(tomb, mod){
         return tomb.sort((a, b) => a-b); 
     if (mod === "Desc") 
         return tomb.sort((a, b) => b-a)
-    return tomb;
 }

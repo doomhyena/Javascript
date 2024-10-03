@@ -28,7 +28,4 @@ rendezmód([1, 2, 3, 4] "None") -> [1, 2, 3, 4]
 function rendezmod(tomb, mod){
     if (mod === "Asc") 
         return tomb.sort((a, b) => a-b); 
-    if (mod === "Desc") 
-        return tomb.sort((a, b) => b-a)
-    return tomb;
 }
