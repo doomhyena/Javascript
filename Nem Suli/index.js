@@ -69,12 +69,12 @@ console.log(maradekososztas(8,4))
 
 */
 
-function reciprok(szams) {
-    let osszeg = 0
-    for (let i = 0; i < 1; i++) {
-        osszeg += 1 / szams[i];
+function reciprok(szamok) {
+    let osszeg = 0;
+    for (let i = 0; i < szamok.length; i++) {
+        osszeg += 1 / szamok[i];
     }
     return (1 / osszeg).toFixed(1);
-}
+  }
 
 console.log(reciprok([6, 3, 6]))
