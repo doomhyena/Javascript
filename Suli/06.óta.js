@@ -15,10 +15,11 @@ function egyedirendez(lista) {
 
 
 */
-function Ugyanannyi(string) {
+/*
+
+    function Ugyanannyi(string) {
     let countx = 0;
     let counto = 0;
-    string.toLowerCase();
 
     for (let char of string) {
         if (char === 'x') {
@@ -29,8 +30,35 @@ function Ugyanannyi(string) {
     }
     return countx === counto;
 }
-console.log(Ugyanannyi("xxoo"));
-console.log(Ugyanannyi("XXoo"));
-console.log(Ugyanannyi("xxooo"));
-console.log(Ugyanannyi("xo"));
-console.log(Ugyanannyi("xoxoxo")); 
+
+*/
+
+function  Ugyanannyi(string) {
+    let countx = 0
+    let counto = 0
+    for (var i = 0; i < string.length; i++) {
+        if(string[i].toLowerCase() === 'x') {
+            countx += 1;
+        } else if (string[i].toLowerCase() === 'o') {
+            counto += 1
+        }
+    }
+    return countx === counto;
+}
+
+/*
+
+    A megadott betű melyik magánhangzóval esik a legközelebb az abc-ben?
+    Pl.: lkmh("b") -> "a"
+
+*/
+
+function lkmh(char) {
+    let mhlista = ['a', 'e', 'i', 'o', 'u']
+
+    if (mhlista.includes(char)) return char;
+
+    let ujlista  = mhlista.map(mh => Math.abs(mh.charCodeAt(0) - char.charCodeAt(0)))
+    return  mhlista[ujlista.indexOf(Math.min(...ujlista))];
+
+}
