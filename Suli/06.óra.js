@@ -62,3 +62,28 @@ function lkmh(char) {
     return  mhlista[ujlista.indexOf(Math.min(...ujlista))];
 
 }
+/*
+
+    Feladat: A sakktábla lépkedünk egy futóval. A kérdés, hogy az adott számú lépésből fel tud-e jutni A-ból B-be?
+    Pl.: futó("a1", "b4", 2) -> true
+         futó("a1", "b5", 5) -> false
+
+*/
+
+function futó(kezd, vég,  lép) {
+    var xk = Math.abs(cel[0].charCodeAt(0)-kezd[0].charCodeAt(0))
+    var yk  = Math.abs(parseInt(cel[1]-kezd[1]))
+    // Ha eltérő színene van 2 hely akkor false
+    if (yk === 2 && xk === 1) return false
+    // Ha a lépésszám 2 vagy több akkor true
+    if (lép >= 2) return true
+    // Ha a kezdő és a cél hely megegyezik, akkor true
+    if (kezd === vég) return true
+    // Ha egy lépésünk van rá
+    if (lép === 1) {
+        if (xk != yk) return false 
+        else return true
+    } 
+    // Minden más esetben
+    else return false
+}
