@@ -5,8 +5,16 @@ function egyedirendez(lista) {
     return Array.from(new Set(rendezett));
 }
 
-// Feladat: Adott egy string, ami x és o betűkből áll. Ugyanannyi van-e a két karakterből?
+/*
 
+    Feladat: adott egy string, ami x és o betűkből áll. Ugyannyi van-e a két karakterből?
+    Pl.:  "xo" -> true, "xxo" -> false
+        - kis/nagybetű nem számít
+        - feltételezzük, hogy nincsnenek az x-en és az o-n kívűl más karakterek a stringben
+
+
+
+*/
 function Ugyanannyi(string) {
     let countx = 0;
     let counto = 0;
